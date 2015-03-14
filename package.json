@@ -1,0 +1,9 @@
+{
+  "name": "zefti-remote-interface",
+  "description": "Zefti Remote Interface",
+  "author": "Ryan Ogle",
+  "dependencies": {
+  },
+  "private": false,
+  "version": "0.0.1"
+}
