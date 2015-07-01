@@ -1,5 +1,5 @@
 var Request = require('zefti-request');
-var utils = require('zefti-utils')({});
+var utils = require('zefti-utils');
 var Remote = function(db){
   this.db = db;
   return this;
