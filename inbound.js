@@ -26,7 +26,7 @@ Remote.prototype.upsert = function(hash, update, options, cb){
 };
 
 Remote.prototype.update = function(hash, update, options, cb){
-  var args = utils.reduce3ObjAndCb(arguments);
+  var args = utils.resolve3Arguments(arguments);
   this.db.post({method:'update', hash:args[0], update:args[1], options:args[2]}, {path:'/collect'}, args[3]);
 };
 
